@@ -1,0 +1,68 @@
+/* ============================CONTAINER CADASTRAR================================= */
+.container-cadastrar {
+    width: 85%;
+    max-width: 600px;
+    margin-inline: auto;
+    margin-top: calc(8px + 20px);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.979);
+    border-radius: 0px;
+    height: 18vh;
+}
+.container-cadastrar h1{
+   font-weight: bold;
+   text-align: center;
+   font-size: 1.8rem;
+   padding: 1.5rem;
+}
+.container-cadastrar .box-formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container-cadastrar .box-formulario input {
+    padding: 0.8rem;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    background: rgb(230, 228, 228);
+}
+.container-cadastrar .box-formulario textarea {
+    padding: 0.5rem;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    height: 5rem;
+    border: 1px solid grey;
+}
+
+.box-btn-cadastro{
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.box-btn-cadastro button{
+    padding: 0.8rem;
+    border: none;
+    width: 40%;
+}
+
+.btn-cancelar{
+    background: rgb(248, 109, 109);
+    color: white;
+}
+
+.btn-cadastrar{
+    background: rgb(71, 209, 71);
+    color: white;
+}
+
+.box-cadastro{
+    border: 1px solid rgba(128, 128, 128, 0.116);
+    padding: 0.8rem;
+    border-radius: 3px;
+    width: 100%;
+}

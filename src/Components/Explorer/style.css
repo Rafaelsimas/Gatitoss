@@ -1,0 +1,213 @@
+
+
+@media (min-width:802px){
+    /* ============================BANNER================================= */
+    #banner {
+       width: 85%;
+       margin-inline: auto;
+       margin-top: calc(10px + -40px);
+       padding: 1.5rem;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       height: 100vh;
+   }
+   
+   #banner .box-text-home{
+       width: 50%;
+   }
+   
+   #banner .box-text-home h2 {
+      font-weight: bold;
+      font-size: 3.0rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      color: var(--color-menu);
+   }
+   
+   #banner .box-text-home p{
+       
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      line-height: 30px;
+      font-weight: 700;
+      color: var(--color-menu);
+   }
+   
+   #banner .box-text-home button{
+       margin-bottom: 1.5rem;
+       padding: 1.2rem;
+       width: 50%;
+       background: rgb(151, 229, 151);
+       border: none;
+       font-weight: bold;
+       border-radius: 3px;
+   }
+   
+   #banner .box-btn{
+       display: flex;
+       justify-content: space-between;
+       gap: 1rem;
+   }
+   #banner .box-btn .btn-cadastro{
+       background: white;
+   }
+   
+   #banner img {
+       width: 31rem;
+       margin-top: -4rem;
+   }
+   
+   .box-btn .btn-conheca{
+       color: rgb(90, 88, 88);
+       font-weight: bold;
+       transition: 0.3s ease-in-out;
+   }
+    .btn-conheca:hover{
+      background: rgb(135, 153, 135);
+   }
+   
+   #box ion-icon{
+       display: none;
+       color: white;
+       font-size: 1.8rem;
+   }
+   }
+   
+   @media (max-width:1280px){
+       /* ============================BANNER================================= */
+       #banner {
+          width: 100%;
+          margin-inline: auto;
+          margin-top: calc(10px + -40px);
+          padding: 1.5rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 100vh;
+      }
+   
+   #banner .box-text-home{
+      width: 50%;
+   }
+   
+   #banner .box-text-home h2 {
+       font-weight: bold;
+       font-size: 2.1rem;
+       margin-top: 1.5rem;
+       margin-bottom: 1.5rem;
+       color: var(--color-menu);
+   }
+   
+   #banner .box-text-home p {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      line-height: 30px;
+      font-weight: 400;
+      color: var(--color-menu);
+      font-size: 0.9rem;
+   }
+   
+   #banner .box-text-home button {
+       margin-bottom: 1.5rem;
+       padding: 0.rem;
+       width: 50%;
+       background: rgb(151, 229, 151);
+       border: none;
+       font-weight: bold;
+       border-radius: 3px;
+   }
+   
+   #banner .box-btn{
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+   }
+   #banner .box-btn .btn-cadastro{
+      background: white;
+   }
+   
+   #banner img {
+       width: 22rem;
+       margin-top: -4rem;
+   }
+   
+   .box-btn .btn-conheca{
+      color: rgb(90, 88, 88);
+      font-weight: bold;
+      transition: 0.3s ease-in-out;
+   }
+   .btn-conheca:hover{
+     background: rgb(135, 153, 135);
+   }
+   
+   #box ion-icon{
+      display: none;
+      color: white;
+      font-size: 1.8rem;
+   }
+   
+   }
+   
+   
+   
+   
+   @media (max-width:800px){
+        /* ============================BANNER================================= */
+        #banner {
+           width: 100%;
+           margin-inline: auto;
+           margin-top: calc(62px + -47px);
+           padding: 0.5rem;
+           display: flex;
+           justify-content: center;
+           flex-direction: column;
+           align-items: center;
+           height: 103vh;
+       }
+   #banner .box-text-home{
+       width: 100%;
+   }
+   #banner .box-text-home h2 {
+       font-weight: bold;
+       font-size: 1.9rem;
+       margin-top: -8.0rem;
+       margin-bottom: 1.5rem;
+       color: var(--color-menu);
+    }
+    #banner .box-text-home p {
+       margin-top: 1.5rem;
+       margin-bottom: 1.5rem;
+       line-height: 30px;
+       font-weight: 400;
+       color: var(--color-menu);
+   }
+   
+    #banner img {
+      display: none;
+   }
+   
+   #banner .box-btn{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       gap: 1rem;
+   }
+   
+   #banner .box-text-home button{
+       margin-bottom: 1.5rem;
+       padding: 1.2rem;
+       width: 100%;
+       background: rgb(49, 245, 49);
+       border: none;
+       font-weight: bold;
+       border-radius: 3px;
+   }
+   
+   #box ion-icon{
+       display: block;
+       color: white;
+       font-size: 1.8rem;
+   }
+   }
+   

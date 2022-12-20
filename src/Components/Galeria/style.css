@@ -1,0 +1,69 @@
+/* ============================GALERIA================================= */
+#galeria{
+    width: 100%;
+    margin-inline: auto;
+    background: var( --bg-galeria);
+    margin-top: -4rem;
+    border-radius: 3px;
+}
+
+#galeria .gatinhos-cadastrados {
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-top: 69px;
+}
+
+#galeria .gatinhos-cadastrados .info-gatinhos {
+    width: 339px;
+    height: 669px;
+    max-height: 800px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    background: white;
+    padding: 1rem;
+    position: relative;
+}
+
+#galeria .gatinhos-cadastrados .info-gatinhos img {
+    width: 308px;
+    height: 250px;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.btn-acoes {
+    position: absolute;
+    top: 36.9rem;
+    right: 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+
+.btn-acoes ion-icon{
+    font-size: 1.5rem;
+}
+
+#whatsApp{
+    background: green;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#verPagina{
+    cursor: pointer;
+    background: rgb(129, 129, 129);
+    color: white;
+    padding: 0.8rem;
+    border-radius: 50%;
+}

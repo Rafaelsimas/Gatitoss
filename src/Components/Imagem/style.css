@@ -1,0 +1,21 @@
+.info-gatinhos-detalhe{
+    padding: 1rem;
+  background: lightgrey;
+}
+
+.imagem-detalhe{
+    width: 70%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.box-dados-detalhes{
+   line-height: 30px;
+   margin-bottom: 30px;
+}
+
+.descricao-detalhes{
+    line-height: 30px;
+    width: 30%;
+
+}
